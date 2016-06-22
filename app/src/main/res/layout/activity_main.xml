@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.tapesh.momarkreward.MainActivity"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Momark Rewards"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:background="#980000"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Loading your current position...."
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

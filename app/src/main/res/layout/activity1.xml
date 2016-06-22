@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/splash">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:background="#F2000000"
+        android:layout_marginTop="155dp"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:background="#FFFFFFFF"
+            android:text=""
+            android:hint="  share your location"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3"
+          android:layout_below="@+id/editText" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button"
+            android:background="#780000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
